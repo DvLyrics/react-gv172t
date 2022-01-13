@@ -1,6 +1,7 @@
 import React, { Component, useState } from 'react';
 import Chart from 'react-apexcharts';
 import ReactApexChart from 'react-apexcharts';
+import './Donut.css';
 
 const DonutChart = () => {
   const [series, setseries] = useState([44, 55, 41, 17, 15]);

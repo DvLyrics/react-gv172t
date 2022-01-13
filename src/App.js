@@ -3,7 +3,7 @@ import React, { Component, useState, useEffect } from 'react';
 // import axios from 'axios';
 import './style.css';
 // Chart from 'react-apexcharts';
-import LineChart from './linechart';
+//import LineChart from './linechart';
 import DonutChart from './donutchart';
 const App = () => {
   // const [category, setCategory] = useState([]);
@@ -65,7 +65,6 @@ const App = () => {
     // />
     <div classname=" Donut">
       <DonutChart />
-      <LineChart />
     </div>
   );
 };
