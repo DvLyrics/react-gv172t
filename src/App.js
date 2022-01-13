@@ -5,6 +5,7 @@ import './style.css';
 // Chart from 'react-apexcharts';
 //import LineChart from './linechart';
 import DonutChart from './donutchart';
+import LineDummy from './linedummy';
 const App = () => {
   // const [category, setCategory] = useState([]);
   // const [data, setData] = useState([]);
@@ -63,8 +64,12 @@ const App = () => {
     //   width={800}
     //   height={500}
     // />
-    <div classname=" Donut">
-      <DonutChart />
+    <div>
+      <div classname=" Donut">
+        <DonutChart />
+      </div>
+
+      <LineDummy />
     </div>
   );
 };

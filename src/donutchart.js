@@ -29,6 +29,7 @@ const DonutChart = () => {
     <div id="chart">
       <ReactApexChart options={options} series={series} type="donut" />
       <p> hi avcjsck</p>
+      <ReactApexChart options={options} series={series} type="line" />
     </div>
   );
 };
